@@ -2,6 +2,12 @@
     box-sizing: content-box;
 }
 
+:root {
+    --bg-color: rgb(28, 25, 25);
+    --box-color: rgb(68, 68, 169);
+    --text-color: rgb(242, 242, 242);
+}
+
 html {
     height: 100%;
 }
