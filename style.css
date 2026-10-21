@@ -22,3 +22,20 @@ body {
     grid-template-rows: 1fr 10fr 2fr;
     height: 100%;
 }
+
+
+#header {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+#sidebar {
+    grid-area: 2 / 1 / 4 / 2;
+}
+
+#content {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+#trending {
+    grid-area: 3 / 2 / 4 / 3;
+}
